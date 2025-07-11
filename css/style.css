@@ -118,7 +118,7 @@ nav ul li a:hover {
 /* ===== GRID MEMBERS ===== */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 cột bằng nhau */
   gap: 2rem;
 }
 
